@@ -120,10 +120,10 @@ const Home = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.1 }}
-                        className='text-center text-3xl lg:text-4xl font-semibold mt-7  '
+                        className='text-center text-3xl lg:text-4xl font-semibold mt-7 overflow-visible  '
                     >
                        महिलाओं को ऊँचा उठाओ: 
-                        <HighlightText text={"भारत में भविष्य को परिवर्तित करो।"} />
+                        <HighlightText className='overflow-visible' text={"Transform Futures in India"} />
                     </motion.div>
 
                     <motion.div
