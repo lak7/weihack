@@ -108,7 +108,7 @@ const Home = () => {
                                         transition-all duration-200 hover:scale-95 w-fit'>
                             <div className='flex flex-row items-center gap-2 rounded-full px-10 py-[5px]
                               transition-all duration-200 group-hover:bg-richblack-900'>
-                                <p>Become an Instructor</p>
+                                <p>शिक्षक बनें।</p>
                                 <FaArrowRight />
                             </div>
                         </div>
@@ -122,8 +122,8 @@ const Home = () => {
                         viewport={{ once: false, amount: 0.1 }}
                         className='text-center text-3xl lg:text-4xl font-semibold mt-7  '
                     >
-                        Elevate Women:
-                        <HighlightText text={"Transform Futures in India"} />
+                       महिलाओं को ऊँचा उठाओ: 
+                        <HighlightText text={"भारत में भविष्य को परिवर्तित करो।"} />
                     </motion.div>
 
                     <motion.div
@@ -139,11 +139,11 @@ const Home = () => {
 
                     <div className='flex flex-row gap-7 mt-8'>
                         <CTAButton active={true} linkto={"/about"}>
-                            Learn More
+                        और अधिक सीखें
                         </CTAButton>
 
                         <CTAButton active={false} linkto={"/contact"}>
-                            Book a Demo
+                        डेमो बुक करें
                         </CTAButton>
                     </div>
                 </div>
